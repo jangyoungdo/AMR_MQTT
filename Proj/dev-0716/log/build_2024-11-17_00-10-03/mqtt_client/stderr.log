@@ -1,0 +1,5 @@
+  File "/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client/mqtt_client.py", line 40
+    `    # 데이터 포맷 구성
+    ^
+SyntaxError: invalid syntax
+

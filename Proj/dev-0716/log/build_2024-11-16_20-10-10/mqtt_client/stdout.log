@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/mqtt_client/mqtt_client.egg-info
+writing ../../build/mqtt_client/mqtt_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/mqtt_client/mqtt_client.egg-info/dependency_links.txt
+writing entry points to ../../build/mqtt_client/mqtt_client.egg-info/entry_points.txt
+writing requirements to ../../build/mqtt_client/mqtt_client.egg-info/requires.txt
+writing top-level names to ../../build/mqtt_client/mqtt_client.egg-info/top_level.txt
+writing manifest file '../../build/mqtt_client/mqtt_client.egg-info/SOURCES.txt'
+reading manifest file '../../build/mqtt_client/mqtt_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/mqtt_client/mqtt_client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build
+creating /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib
+creating /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib/mqtt_client
+copying mqtt_client/mqtt_client.py -> /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib/mqtt_client
+copying mqtt_client/__init__.py -> /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib/mqtt_client
+running install
+running install_lib
+creating /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client
+copying /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib/mqtt_client/mqtt_client.py -> /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client
+copying /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib/mqtt_client/__init__.py -> /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client
+byte-compiling /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client/mqtt_client.py to mqtt_client.cpython-38.pyc
+byte-compiling /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/share/ament_index
+creating /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/share/ament_index/resource_index
+creating /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/share/ament_index/resource_index/packages
+copying resource/mqtt_client -> /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/share/ament_index/resource_index/packages
+copying package.xml -> /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/share/mqtt_client
+creating /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/share/mqtt_client/launch
+copying launch/mqtt_client_launch.py -> /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/share/mqtt_client/launch
+creating /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/share/mqtt_client/config
+copying config/mqtt_params.yaml -> /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/share/mqtt_client/config
+running install_egg_info
+Copying ../../build/mqtt_client/mqtt_client.egg-info to /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client-0.0.0-py3.8.egg-info
+running install_scripts
+Installing mqtt_client script to /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/mqtt_client
+writing list of installed files to '/desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/install.log'

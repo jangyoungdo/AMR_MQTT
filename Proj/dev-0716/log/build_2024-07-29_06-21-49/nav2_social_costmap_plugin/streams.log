@@ -1,0 +1,58 @@
+[0.130s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/nav2_social_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake /desktop/AMR_Proj/Proj/dev-0716/nav2_social_costmap_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/desktop/AMR_Proj/Proj/dev-0716/install/nav2_social_costmap_plugin
+[0.599s] -- The C compiler identification is GNU 9.4.0
+[0.973s] -- The CXX compiler identification is GNU 9.4.0
+[0.996s] -- Check for working C compiler: /usr/bin/cc
+[1.174s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.174s] -- Detecting C compiler ABI info
+[1.347s] -- Detecting C compiler ABI info - done
+[1.361s] -- Detecting C compile features
+[1.362s] -- Detecting C compile features - done
+[1.381s] -- Check for working CXX compiler: /usr/bin/c++
+[1.604s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.604s] -- Detecting CXX compiler ABI info
+[1.845s] -- Detecting CXX compiler ABI info - done
+[1.878s] -- Detecting CXX compile features
+[1.878s] -- Detecting CXX compile features - done
+[1.888s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.947s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.947s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.411s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.566s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.776s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.862s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.238s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.241s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.243s] -- Looking for pthread.h
+[3.360s] -- Looking for pthread.h - found
+[3.360s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.465s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.466s] -- Looking for pthread_create in pthreads
+[3.562s] -- Looking for pthread_create in pthreads - not found
+[3.562s] -- Looking for pthread_create in pthread
+[3.658s] -- Looking for pthread_create in pthread - found
+[3.660s] -- Found Threads: TRUE  
+[3.914s] -- Found nav2_costmap_2d: 0.4.7 (/opt/ros/foxy/share/nav2_costmap_2d/cmake)
+[5.244s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.850s] CMake Error at CMakeLists.txt:25 (find_package):
+[5.850s]   By not providing "Findpeople_msgs.cmake" in CMAKE_MODULE_PATH this project
+[5.850s]   has asked CMake to find a package configuration file provided by
+[5.850s]   "people_msgs", but CMake did not find one.
+[5.850s] 
+[5.850s]   Could not find a package configuration file provided by "people_msgs" with
+[5.850s]   any of the following names:
+[5.850s] 
+[5.850s]     people_msgsConfig.cmake
+[5.850s]     people_msgs-config.cmake
+[5.850s] 
+[5.851s]   Add the installation prefix of "people_msgs" to CMAKE_PREFIX_PATH or set
+[5.851s]   "people_msgs_DIR" to a directory containing one of the above files.  If
+[5.851s]   "people_msgs" provides a separate development package or SDK, be sure it
+[5.851s]   has been installed.
+[5.851s] 
+[5.851s] 
+[5.852s] -- Configuring incomplete, errors occurred!
+[5.853s] See also "/desktop/AMR_Proj/Proj/dev-0716/build/nav2_social_costmap_plugin/CMakeFiles/CMakeOutput.log".
+[5.853s] See also "/desktop/AMR_Proj/Proj/dev-0716/build/nav2_social_costmap_plugin/CMakeFiles/CMakeError.log".
+[5.862s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/nav2_social_costmap_plugin' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake /desktop/AMR_Proj/Proj/dev-0716/nav2_social_costmap_plugin -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/desktop/AMR_Proj/Proj/dev-0716/install/nav2_social_costmap_plugin

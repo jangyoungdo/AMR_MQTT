@@ -1,0 +1,45 @@
+[0.048s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake /desktop/AMR_Proj/Proj/dev-0716/src/articubot_one -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one
+[0.117s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.166s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.659s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.975s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.980s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.981s] -- Added test 'lint_cmake' to check CMake code style
+[0.985s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.987s] -- Added test 'xmllint' to check XML markup files
+[0.991s] -- Configuring done
+[0.997s] -- Generating done
+[1.001s] -- Build files have been written to: /desktop/AMR_Proj/Proj/dev-0716/build/articubot_one
+[1.003s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake /desktop/AMR_Proj/Proj/dev-0716/src/articubot_one -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one
+[1.009s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/articubot_one -- -j4 -l4
+[1.134s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/articubot_one -- -j4 -l4
+[1.253s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/articubot_one
+[1.255s] -- Install configuration: "Release"
+[1.255s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/config
+[1.255s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/config/nav2_params._2.yaml
+[1.255s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[1.255s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[1.255s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/description
+[1.255s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/launch
+[1.255s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/launch/robot.launch.py
+[1.257s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/launch/joy.launch.py
+[1.261s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[1.261s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[1.261s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[1.261s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/worlds
+[1.261s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.261s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.261s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.261s] -- Installing: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.262s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/environment/path.sh
+[1.262s] -- Installing: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.262s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/local_setup.bash
+[1.262s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/local_setup.sh
+[1.262s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.262s] -- Installing: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.263s] -- Installing: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.dsv
+[1.263s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.263s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.263s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.263s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.xml
+[1.277s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/articubot_one

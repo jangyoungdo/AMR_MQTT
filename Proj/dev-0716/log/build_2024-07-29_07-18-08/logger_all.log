@@ -1,0 +1,914 @@
+[0.337s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.337s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74240ac041c0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74240ac041c0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74240ac04820>)
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.371s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/desktop/AMR_Proj/Proj/dev-0716'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extension 'ros'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extensions ['cmake', 'python']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extension 'cmake'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws) by extension 'python_setup_py'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/build) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/build) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/install) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/install) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/micro_ros_setup) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/micro_ros_setup) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/micro_ros_setup) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/micro_ros_setup) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/micro_ros_setup) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/micro_ros_setup) by extension 'ros'
+[0.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agent_ws/src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extension 'ros'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extensions ['cmake', 'python']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extension 'cmake'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extension 'python'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extensions ['python_setup_py']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros) by extension 'python_setup_py'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extension 'ros'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extensions ['cmake', 'python']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extension 'cmake'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extension 'python'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extensions ['python_setup_py']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base) by extension 'python_setup_py'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agent_ws/src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro_ros_msgs) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro_ros_msgs) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/agent_ws/src/uros/micro_ros_msgs) by extension 'ros'
+[0.414s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agent_ws/src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[0.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_bringup) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_bringup) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_bringup) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_bringup) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_bringup) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_bringup) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_bringup) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_bringup) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini_bringup' with type 'ros.ament_python' and name 'omo_r1mini_bringup'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_cartographer) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_cartographer) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_cartographer) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_cartographer) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_cartographer) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_cartographer) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_cartographer) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_cartographer) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini_cartographer' with type 'ros.ament_cmake' and name 'omo_r1mini_cartographer'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_description) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_description) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_description) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_description) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_description) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_description) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_description) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_description) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_description) by extension 'ros'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini_description' with type 'ros.ament_cmake' and name 'omo_r1mini_description'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_navigation2) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_navigation2) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_navigation2) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_navigation2) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_navigation2) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_navigation2) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_navigation2) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini_navigation2) by extension 'ros'
+[0.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini_navigation2' with type 'ros.ament_cmake' and name 'omo_r1mini_navigation2'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/stella_ahrs) by extension 'ros'
+[0.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stella_ahrs' with type 'ros.ament_cmake' and name 'stella_ahrs'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.424s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.449s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/articubot_one', 'symlink_install': False, 'test_result_base': None}
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/uros/drive_base/drive_base_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_description', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'stella_ahrs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'stella_ahrs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/stella_ahrs', 'symlink_install': False, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.460s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.461s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_target' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.462s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup', 'merge_install': False, 'path': '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.463s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.468s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.468s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/uros/micro_ros_msgs'
+[0.474s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_description' with build type 'ament_cmake'
+[0.491s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_description'
+[0.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.513s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/articubot_one' with build type 'ament_cmake'
+[0.513s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/articubot_one'
+[0.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.535s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[0.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/uros/drive_base/drive_base_msgs'
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs -- -j4 -l4
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_description -- -j4 -l4
+[0.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/articubot_one -- -j4 -l4
+[0.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/drive_base_msgs -- -j4 -l4
+[0.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_description -- -j4 -l4
+[0.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/articubot_one -- -j4 -l4
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_description
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/articubot_one
+[0.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_description)
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description' for CMake module files
+[0.852s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description' for CMake config files
+[0.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('omo_r1mini_description', 'cmake_prefix_path')
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/hook/cmake_prefix_path.ps1'
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/hook/cmake_prefix_path.dsv'
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/hook/cmake_prefix_path.sh'
+[0.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_description
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/bin'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/lib/pkgconfig/omo_r1mini_description.pc'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/lib/python3.8/site-packages'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/bin'
+[0.864s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.ps1'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.dsv'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.sh'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.bash'
+[0.884s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.zsh'
+[0.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/colcon-core/packages/omo_r1mini_description)
+[0.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/articubot_one
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one' for CMake module files
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one' for CMake config files
+[0.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/bin'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/lib/python3.8/site-packages'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/bin'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.ps1'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.sh'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.bash'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.zsh'
+[0.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_description)
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description' for CMake module files
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description' for CMake config files
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('omo_r1mini_description', 'cmake_prefix_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/hook/cmake_prefix_path.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/hook/cmake_prefix_path.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/hook/cmake_prefix_path.sh'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/bin'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/lib/pkgconfig/omo_r1mini_description.pc'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/lib/python3.8/site-packages'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/bin'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.ps1'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.dsv'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.sh'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.bash'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/omo_r1mini_description/package.zsh'
+[1.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description/share/colcon-core/packages/omo_r1mini_description)
+[1.045s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[1.046s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/micro_ros_setup'
+[1.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one' for CMake module files
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one' for CMake config files
+[1.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/bin'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/lib/python3.8/site-packages'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/bin'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.ps1'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.dsv'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.sh'
+[1.124s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.bash'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/articubot_one/package.zsh'
+[1.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one/share/colcon-core/packages/articubot_one)
+[1.127s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_cartographer' with build type 'ament_cmake'
+[1.127s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_cartographer'
+[1.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.131s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_setup -- -j4 -l4
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_cartographer -- -j4 -l4
+[1.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_setup -- -j4 -l4
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_cartographer -- -j4 -l4
+[1.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_setup
+[1.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_cartographer
+[1.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_cartographer)
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer' for CMake module files
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer' for CMake config files
+[1.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('omo_r1mini_cartographer', 'cmake_prefix_path')
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/hook/cmake_prefix_path.ps1'
+[1.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/hook/cmake_prefix_path.dsv'
+[1.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/hook/cmake_prefix_path.sh'
+[1.614s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/bin'
+[1.615s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/lib/pkgconfig/omo_r1mini_cartographer.pc'
+[1.615s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/lib/python3.8/site-packages'
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/bin'
+[1.628s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.ps1'
+[1.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_cartographer
+[1.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.dsv'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.sh'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.bash'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.zsh'
+[1.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/colcon-core/packages/omo_r1mini_cartographer)
+[1.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[1.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_setup
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup' for CMake module files
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup' for CMake config files
+[1.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/lib'
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/bin'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/lib/python3.8/site-packages'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/bin'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_cartographer)
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer' for CMake module files
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer' for CMake config files
+[1.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('omo_r1mini_cartographer', 'cmake_prefix_path')
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/hook/cmake_prefix_path.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/hook/cmake_prefix_path.dsv'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/hook/cmake_prefix_path.sh'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/bin'
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/lib/pkgconfig/omo_r1mini_cartographer.pc'
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/lib/python3.8/site-packages'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/bin'
+[1.818s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.ps1'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.dsv'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.sh'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.bash'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.zsh'
+[1.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer/share/colcon-core/packages/omo_r1mini_cartographer)
+[1.829s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_navigation2' with build type 'ament_cmake'
+[1.829s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_navigation2'
+[1.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup' for CMake module files
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup' for CMake config files
+[1.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/lib'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/bin'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.889s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/lib/python3.8/site-packages'
+[1.890s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/bin'
+[1.892s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.902s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.908s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.915s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/stella_ahrs' with build type 'ament_cmake'
+[1.918s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/stella_ahrs'
+[1.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.924s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_navigation2 -- -j4 -l4
+[1.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs -- -j4 -l4
+[2.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs -- -j4 -l4
+[2.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/drive_base_msgs -- -j4 -l4
+[2.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_navigation2 -- -j4 -l4
+[2.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_navigation2
+[2.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_navigation2)
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2' for CMake module files
+[2.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_navigation2
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2' for CMake config files
+[2.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('omo_r1mini_navigation2', 'cmake_prefix_path')
+[2.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/hook/cmake_prefix_path.ps1'
+[2.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/hook/cmake_prefix_path.dsv'
+[2.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/hook/cmake_prefix_path.sh'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/bin'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/lib/pkgconfig/omo_r1mini_navigation2.pc'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/lib/python3.8/site-packages'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/bin'
+[2.303s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.ps1'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.dsv'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.sh'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.bash'
+[2.308s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.zsh'
+[2.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/colcon-core/packages/omo_r1mini_navigation2)
+[2.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs -- -j4 -l4
+[2.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs
+[2.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_navigation2)
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2' for CMake module files
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2' for CMake config files
+[2.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('omo_r1mini_navigation2', 'cmake_prefix_path')
+[2.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/hook/cmake_prefix_path.ps1'
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/hook/cmake_prefix_path.dsv'
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/hook/cmake_prefix_path.sh'
+[2.441s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/bin'
+[2.442s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/lib/pkgconfig/omo_r1mini_navigation2.pc'
+[2.442s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/lib/python3.8/site-packages'
+[2.442s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/bin'
+[2.448s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.ps1'
+[2.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.dsv'
+[2.451s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.sh'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.bash'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.zsh'
+[2.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2/share/colcon-core/packages/omo_r1mini_navigation2)
+[2.465s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[2.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/ydlidar_ros2_driver'
+[2.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs
+[2.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/ydlidar_ros2_driver -- -j4 -l4
+[2.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stella_ahrs)
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs' for CMake module files
+[2.590s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs' for CMake config files
+[2.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'cmake_prefix_path')
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/hook/cmake_prefix_path.ps1'
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/hook/cmake_prefix_path.dsv'
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/hook/cmake_prefix_path.sh'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/lib'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/bin'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/lib/pkgconfig/stella_ahrs.pc'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/lib/python3.8/site-packages'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/bin'
+[2.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs
+[2.603s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.ps1'
+[2.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.dsv'
+[2.606s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.sh'
+[2.608s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.bash'
+[2.608s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.zsh'
+[2.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/colcon-core/packages/stella_ahrs)
+[2.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[2.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs
+[2.641s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs' for CMake module files
+[2.644s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs' for CMake config files
+[2.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[2.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[2.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib'
+[2.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[2.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[2.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/bin'
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages'
+[2.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[2.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/bin'
+[2.701s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[2.713s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[2.716s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[2.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[2.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/drive_base_msgs
+[2.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stella_ahrs)
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs' for CMake module files
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs' for CMake config files
+[2.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('stella_ahrs', 'cmake_prefix_path')
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/hook/cmake_prefix_path.ps1'
+[2.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/hook/cmake_prefix_path.dsv'
+[2.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/hook/cmake_prefix_path.sh'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/lib'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/bin'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/lib/pkgconfig/stella_ahrs.pc'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/lib/python3.8/site-packages'
+[2.850s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/bin'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.ps1'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.dsv'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.sh'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.bash'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.zsh'
+[2.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/colcon-core/packages/stella_ahrs)
+[2.877s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_bringup' with build type 'ament_python'
+[2.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('omo_r1mini_bringup', 'ament_prefix_path')
+[2.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/hook/ament_prefix_path.ps1'
+[2.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/hook/ament_prefix_path.dsv'
+[2.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/hook/ament_prefix_path.sh'
+[2.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.991s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[2.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/drive_base_msgs
+[3.002s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs' for CMake module files
+[3.003s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs' for CMake config files
+[3.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[3.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[3.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[3.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[3.014s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib'
+[3.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[3.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[3.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[3.026s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/bin'
+[3.026s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[3.027s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib/python3.8/site-packages'
+[3.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[3.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[3.035s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/bin'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[3.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[3.053s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[3.056s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[3.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[3.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/ydlidar_ros2_driver -- -j4 -l4
+[3.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[3.118s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs' for CMake module files
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs' for CMake config files
+[3.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[3.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib'
+[3.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[3.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[3.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/bin'
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages'
+[3.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[3.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/bin'
+[3.160s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[3.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[3.163s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[3.172s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[3.173s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[3.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[3.591s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_bringup'
+[3.594s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.623s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[3.624s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[3.633s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.633s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[3.664s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs' for CMake module files
+[3.666s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs' for CMake config files
+[3.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[3.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[3.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[3.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[3.673s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib'
+[3.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[3.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[3.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[3.678s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/bin'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[3.681s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib/python3.8/site-packages'
+[3.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[3.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[3.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[3.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[3.686s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/bin'
+[3.688s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[3.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[3.691s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[3.692s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[3.693s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[3.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[3.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/ydlidar_ros2_driver
+[3.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent': CMAKE_PREFIX_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver:/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy LD_LIBRARY_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent -- -j4 -l4
+[3.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[3.791s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver' for CMake module files
+[3.792s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver' for CMake config files
+[3.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/ydlidar_ros2_driver
+[3.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[3.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[3.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/lib'
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/bin'
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/bin'
+[3.837s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[3.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[3.842s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[3.848s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[3.848s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[3.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[3.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver' for CMake module files
+[4.001s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver' for CMake config files
+[4.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[4.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[4.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[4.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/lib'
+[4.018s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/bin'
+[4.018s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[4.018s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[4.020s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/bin'
+[4.022s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[4.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[4.030s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[4.035s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[4.039s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[4.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[4.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver:/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy LD_LIBRARY_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent -- -j4 -l4
+[4.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent': CMAKE_PREFIX_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver:/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy LD_LIBRARY_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent
+[4.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[4.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver:/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy LD_LIBRARY_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs/lib:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent
+[4.241s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent' for CMake module files
+[4.251s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent' for CMake config files
+[4.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[4.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[4.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[4.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[4.270s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib'
+[4.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[4.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[4.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[4.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[4.274s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/bin'
+[4.274s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[4.274s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib/python3.8/site-packages'
+[4.274s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/bin'
+[4.276s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[4.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[4.278s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[4.279s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[4.280s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[4.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[4.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[4.407s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent' for CMake module files
+[4.408s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent' for CMake config files
+[4.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[4.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[4.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[4.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[4.413s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib'
+[4.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[4.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[4.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[4.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[4.419s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/bin'
+[4.419s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[4.420s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/lib/python3.8/site-packages'
+[4.420s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/bin'
+[4.422s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[4.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[4.424s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[4.425s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[4.425s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[4.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[4.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_bringup': CMAKE_PREFIX_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description:/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver:/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/prefix_override:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/omo_r1mini_bringup build --build-base /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/build install --record /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/install.log --single-version-externally-managed
+[4.952s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup' for CMake module files
+[4.952s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup' for CMake config files
+[4.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_bringup' returned '0': CMAKE_PREFIX_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description:/desktop/AMR_Proj/Proj/dev-0716/install/ydlidar_ros2_driver:/desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_navigation2:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_cartographer:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/drive_base_msgs:/desktop/AMR_Proj/Proj/dev-0716/install/articubot_one:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_setup:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_agent:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/micro_ros_msgs:/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/install/drive_base_msgs PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/prefix_override:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/omo_r1mini_bringup build --build-base /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/build install --record /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/install.log --single-version-externally-managed
+[4.964s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib'
+[4.964s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/bin'
+[4.964s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/pkgconfig/omo_r1mini_bringup.pc'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages'
+[4.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('omo_r1mini_bringup', 'pythonpath')
+[4.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/hook/pythonpath.ps1'
+[4.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/hook/pythonpath.dsv'
+[4.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/hook/pythonpath.sh'
+[4.980s] Level 1:colcon.colcon_core.environment:checking '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/bin'
+[4.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_bringup)
+[4.984s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/package.ps1'
+[4.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/package.dsv'
+[4.986s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/package.sh'
+[4.995s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/package.bash'
+[4.996s] INFO:colcon.colcon_core.shell:Creating package script '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/omo_r1mini_bringup/package.zsh'
+[4.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/share/colcon-core/packages/omo_r1mini_bringup)
+[5.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.009s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.051s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.051s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.053s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.180s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.181s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/desktop/AMR_Proj/Proj/dev-0716/install/local_setup.ps1'
+[5.195s] INFO:colcon.colcon_core.shell:Creating prefix util module '/desktop/AMR_Proj/Proj/dev-0716/install/_local_setup_util_ps1.py'
+[5.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/desktop/AMR_Proj/Proj/dev-0716/install/setup.ps1'
+[5.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/desktop/AMR_Proj/Proj/dev-0716/install/local_setup.sh'
+[5.201s] INFO:colcon.colcon_core.shell:Creating prefix util module '/desktop/AMR_Proj/Proj/dev-0716/install/_local_setup_util_sh.py'
+[5.202s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/desktop/AMR_Proj/Proj/dev-0716/install/setup.sh'
+[5.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/desktop/AMR_Proj/Proj/dev-0716/install/local_setup.bash'
+[5.206s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/desktop/AMR_Proj/Proj/dev-0716/install/setup.bash'
+[5.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/desktop/AMR_Proj/Proj/dev-0716/install/local_setup.zsh'
+[5.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/desktop/AMR_Proj/Proj/dev-0716/install/setup.zsh'

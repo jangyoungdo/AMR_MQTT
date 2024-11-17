@@ -1,0 +1,21 @@
+[1.269s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/src/omo_r1mini_bringup': AMENT_PREFIX_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_description PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/prefix_override:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/omo_r1mini_bringup build --build-base /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/build install --record /desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/install.log --single-version-externally-managed
+[1.759s] running egg_info
+[1.760s] writing ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/PKG-INFO
+[1.760s] writing dependency_links to ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/dependency_links.txt
+[1.761s] writing entry points to ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/entry_points.txt
+[1.761s] writing requirements to ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/requires.txt
+[1.761s] writing top-level names to ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/top_level.txt
+[1.807s] reading manifest file '../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/SOURCES.txt'
+[1.807s] writing manifest file '../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/SOURCES.txt'
+[1.816s] running build
+[1.816s] running build_py
+[1.816s] running install
+[1.816s] running install_lib
+[1.816s] running install_data
+[1.817s] running install_egg_info
+[1.817s] removing '/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup-0.0.1-py3.8.egg-info' (and everything under it)
+[1.817s] Copying ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info to /desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup-0.0.1-py3.8.egg-info
+[1.817s] running install_scripts
+[1.841s] Installing omo_r1mini_mcu_node script to /desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[1.845s] Installing omo_r1mini_motor_setting_node script to /desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[1.845s] writing list of installed files to '/desktop/AMR_Proj/Proj/dev-0716/build/omo_r1mini_bringup/install.log'

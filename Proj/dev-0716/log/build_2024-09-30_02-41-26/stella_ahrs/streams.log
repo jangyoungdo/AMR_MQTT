@@ -1,0 +1,27 @@
+[0.133s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs -- -j4 -l4
+[0.371s] [100%] Built target stella_ahrs_node
+[0.537s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs -- -j4 -l4
+[0.618s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs
+[0.634s] -- Install configuration: "Release"
+[0.634s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs//launch
+[0.637s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs//launch/stella_ahrs_launch.py
+[0.637s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/rviz
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/rviz/imu_test.rviz
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/lib/stella_ahrs/stella_ahrs_node
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/ament_index/resource_index/package_run_dependencies/stella_ahrs
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/ament_index/resource_index/parent_prefix_path/stella_ahrs
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/environment/ament_prefix_path.sh
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/environment/ament_prefix_path.dsv
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/environment/path.sh
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/environment/path.dsv
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/local_setup.bash
+[0.638s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/local_setup.sh
+[0.639s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/local_setup.zsh
+[0.639s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/local_setup.dsv
+[0.639s] -- Installing: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.dsv
+[0.639s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/ament_index/resource_index/packages/stella_ahrs
+[0.639s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.639s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/cmake/stella_ahrsConfig.cmake
+[0.639s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/cmake/stella_ahrsConfig-version.cmake
+[0.639s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/stella_ahrs/share/stella_ahrs/package.xml
+[0.649s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/stella_ahrs

@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/mqtt_client/mqtt_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/mqtt_client/mqtt_client.egg-info/dependency_links.txt
+writing entry points to ../../build/mqtt_client/mqtt_client.egg-info/entry_points.txt
+writing requirements to ../../build/mqtt_client/mqtt_client.egg-info/requires.txt
+writing top-level names to ../../build/mqtt_client/mqtt_client.egg-info/top_level.txt
+reading manifest file '../../build/mqtt_client/mqtt_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/mqtt_client/mqtt_client.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mqtt_client/mqtt_client.py -> /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib/mqtt_client
+running install
+running install_lib
+copying /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib/mqtt_client/mqtt_client.py -> /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client
+byte-compiling /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client/mqtt_client.py to mqtt_client.cpython-38.pyc
+running install_data
+  File "/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client/mqtt_client.py", line 40
+    `    # 데이터 포맷 구성
+    ^
+SyntaxError: invalid syntax
+
+running install_egg_info
+removing '/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/mqtt_client/mqtt_client.egg-info to /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client-0.0.0-py3.8.egg-info
+running install_scripts
+Installing mqtt_client script to /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/mqtt_client
+writing list of installed files to '/desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/install.log'

@@ -1,0 +1,10 @@
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/install/local.dir
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/edit_cache.dir
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/test.dir
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/install.dir
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/list_install_components.dir
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/rebuild_cache.dir
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/micro_ros_agent.dir
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/install/strip.dir
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/micro_ros_agent_uninstall.dir
+/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_agent/CMakeFiles/uninstall.dir

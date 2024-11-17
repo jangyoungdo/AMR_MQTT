@@ -1,0 +1,21 @@
+[1.242s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/src/mqtt_client': PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/prefix_override:/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mqtt_client build --build-base /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build install --record /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/install.log --install-scripts $base/lib/mqtt_client --single-version-externally-managed
+[1.762s] running egg_info
+[1.762s] writing ../../build/mqtt_client/mqtt_client.egg-info/PKG-INFO
+[1.762s] writing dependency_links to ../../build/mqtt_client/mqtt_client.egg-info/dependency_links.txt
+[1.762s] writing entry points to ../../build/mqtt_client/mqtt_client.egg-info/entry_points.txt
+[1.767s] writing requirements to ../../build/mqtt_client/mqtt_client.egg-info/requires.txt
+[1.767s] writing top-level names to ../../build/mqtt_client/mqtt_client.egg-info/top_level.txt
+[1.822s] reading manifest file '../../build/mqtt_client/mqtt_client.egg-info/SOURCES.txt'
+[1.824s] writing manifest file '../../build/mqtt_client/mqtt_client.egg-info/SOURCES.txt'
+[1.825s] running build
+[1.825s] running build_py
+[1.825s] running install
+[1.827s] running install_lib
+[1.838s] running install_data
+[1.838s] running install_egg_info
+[1.839s] removing '/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client-0.0.0-py3.8.egg-info' (and everything under it)
+[1.839s] Copying ../../build/mqtt_client/mqtt_client.egg-info to /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client-0.0.0-py3.8.egg-info
+[1.839s] running install_scripts
+[1.869s] Installing mqtt_client script to /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/mqtt_client
+[1.875s] writing list of installed files to '/desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/install.log'
+[2.212s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/src/mqtt_client' returned '0': PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/prefix_override:/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mqtt_client build --build-base /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build install --record /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/install.log --install-scripts $base/lib/mqtt_client --single-version-externally-managed

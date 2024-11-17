@@ -1,0 +1,29 @@
+[2.348s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/src/mqtt_client': PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/prefix_override:/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mqtt_client build --build-base /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build install --record /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/install.log --install-scripts $base/lib/mqtt_client --single-version-externally-managed
+[3.088s] running egg_info
+[3.093s] writing ../../build/mqtt_client/mqtt_client.egg-info/PKG-INFO
+[3.093s] writing dependency_links to ../../build/mqtt_client/mqtt_client.egg-info/dependency_links.txt
+[3.093s] writing entry points to ../../build/mqtt_client/mqtt_client.egg-info/entry_points.txt
+[3.093s] writing requirements to ../../build/mqtt_client/mqtt_client.egg-info/requires.txt
+[3.094s] writing top-level names to ../../build/mqtt_client/mqtt_client.egg-info/top_level.txt
+[3.245s] reading manifest file '../../build/mqtt_client/mqtt_client.egg-info/SOURCES.txt'
+[3.248s] writing manifest file '../../build/mqtt_client/mqtt_client.egg-info/SOURCES.txt'
+[3.248s] running build
+[3.252s] running build_py
+[3.252s] copying mqtt_client/mqtt_client.py -> /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib/mqtt_client
+[3.252s] running install
+[3.252s] running install_lib
+[3.260s] copying /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build/lib/mqtt_client/mqtt_client.py -> /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client
+[3.265s] byte-compiling /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client/mqtt_client.py to mqtt_client.cpython-38.pyc
+[3.268s] running install_data
+[3.268s]   File "/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client/mqtt_client.py", line 40
+[3.271s]     `    # 데이터 포맷 구성
+[3.271s]     ^
+[3.271s] SyntaxError: invalid syntax
+[3.272s] 
+[3.272s] running install_egg_info
+[3.279s] removing '/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client-0.0.0-py3.8.egg-info' (and everything under it)
+[3.279s] Copying ../../build/mqtt_client/mqtt_client.egg-info to /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages/mqtt_client-0.0.0-py3.8.egg-info
+[3.279s] running install_scripts
+[3.333s] Installing mqtt_client script to /desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/mqtt_client
+[3.335s] writing list of installed files to '/desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/install.log'
+[3.939s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/src/mqtt_client' returned '0': PYTHONPATH=/desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/prefix_override:/desktop/AMR_Proj/Proj/dev-0716/install/mqtt_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mqtt_client build --build-base /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/build install --record /desktop/AMR_Proj/Proj/dev-0716/build/mqtt_client/install.log --install-scripts $base/lib/mqtt_client --single-version-externally-managed

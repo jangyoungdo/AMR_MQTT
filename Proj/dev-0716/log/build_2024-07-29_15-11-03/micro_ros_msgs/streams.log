@@ -1,0 +1,155 @@
+[0.438s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs -- -j4 -l4
+[0.800s] [  2%] Built target micro_ros_msgs__cpp
+[0.963s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[1.129s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[1.233s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_c
+[1.312s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[1.417s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.578s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.687s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[1.898s] [ 76%] Built target micro_ros_msgs
+[2.012s] [ 78%] Built target micro_ros_msgs__py
+[2.167s] [ 87%] Built target micro_ros_msgs__python
+[2.402s] [ 91%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[2.604s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[2.799s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.034s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs -- -j4 -l4
+[3.552s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs
+[3.568s] -- Install configuration: "Release"
+[3.569s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[3.569s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs
+[3.575s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[3.578s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.587s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.h
+[3.587s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.h
+[3.588s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.h
+[3.588s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[3.588s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.h
+[3.588s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.h
+[3.591s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.c
+[3.591s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.c
+[3.592s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.c
+[3.592s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.h
+[3.592s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.h
+[3.592s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.h
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.h
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.h
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.h
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.h
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[3.593s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.594s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[3.604s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[3.604s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[3.604s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[3.605s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[3.608s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs
+[3.608s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[3.608s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/dds_fastrtps
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.609s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[3.610s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.c
+[3.631s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[3.632s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[3.632s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.c
+[3.632s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.c
+[3.632s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[3.632s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[3.632s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[3.632s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs
+[3.632s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[3.632s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.hpp
+[3.633s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.640s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.hpp
+[3.640s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.hpp
+[3.655s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[3.659s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__traits.hpp
+[3.677s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__builder.hpp
+[3.677s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__traits.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__builder.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__traits.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__builder.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.hpp
+[3.678s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.cpp
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[3.679s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[3.680s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[3.680s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[3.681s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py
+[3.835s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg
+[3.835s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node_s.c
+[3.835s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity.py
+[3.835s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph_s.c
+[3.835s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity_s.c
+[3.836s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph.py
+[3.836s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node.py
+[3.836s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/__init__.py
+[3.836s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.836s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.844s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.845s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/lib/libmicro_ros_msgs__python.so
+[3.845s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[3.849s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[3.849s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[3.849s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[3.849s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[3.849s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[3.849s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[3.850s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[3.850s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[3.850s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[3.850s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[3.850s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[3.859s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[3.859s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[3.859s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[3.859s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[3.862s] -- Installing: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[3.862s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[3.862s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport.cmake
+[3.862s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport-release.cmake
+[3.862s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.862s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[3.863s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[3.863s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-release.cmake
+[3.863s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cppExport.cmake
+[3.863s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.864s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[3.873s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[3.873s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-release.cmake
+[3.873s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[3.874s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.874s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.874s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.874s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.874s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.874s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.875s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[3.875s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[3.875s] -- Up-to-date: /desktop/AMR_Proj/Proj/dev-0716/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[4.147s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /desktop/AMR_Proj/Proj/dev-0716/build/micro_ros_msgs

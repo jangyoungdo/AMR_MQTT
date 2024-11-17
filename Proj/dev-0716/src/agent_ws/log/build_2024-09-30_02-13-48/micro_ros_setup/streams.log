@@ -1,0 +1,6 @@
+[0.042s] Invoking command in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/build/micro_ros_setup -- -j4 -l4
+[0.053s] CMake Error: The current CMakeCache.txt directory /desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/build/micro_ros_setup/CMakeCache.txt is different than the directory /home/gunwon/dev/src/agent_ws/build/micro_ros_setup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.069s] CMake Error: The source directory "/home/gunwon/dev/src/agent_ws/src/micro_ros_setup" does not exist.
+[0.069s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.073s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.079s] Invoked command in '/desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/build/micro_ros_setup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/desktop/AMR_Proj/Proj/dev-0716/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /desktop/AMR_Proj/Proj/dev-0716/src/agent_ws/build/micro_ros_setup -- -j4 -l4
