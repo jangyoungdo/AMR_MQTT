@@ -220,5 +220,7 @@ AMR_Proj/
 ```
 AMR(mqtt_client) -> AWS EC2(mqtt_broker -> mqtt_client) -> S3 -> lambda -> DynamoDB
 ```
+![image](https://github.com/user-attachments/assets/3ed89d5c-c45f-40c0-bff3-2b1f631b6e46)
+
 
 
