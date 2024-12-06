@@ -216,7 +216,7 @@ AMR_Proj/
 
 ```
 
-AWS를 활용한 로봇 데이터 관제 진행
+## AWS를 활용한 로봇 데이터 관제 진행
 ```
 AMR(mqtt_client) -> AWS EC2(mqtt_broker -> mqtt_client) -> S3 -> lambda -> DynamoDB
 ```
