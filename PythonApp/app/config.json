@@ -1,0 +1,13 @@
+{
+  "aws": {
+    "access_key": "-",
+    "secret_key": "-",
+    "region": "ap-northeast-2",
+    "bucket_name": "data-mqtt"
+  },
+  "mqtt": {
+    "broker_ip": "-",
+    "broker_port": 1883,
+    "broker_topic": "robot/status"
+  }
+}
